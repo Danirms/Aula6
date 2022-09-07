@@ -1,0 +1,85 @@
+h2{
+    font-size: 30px;
+    line-height: 80px;
+    color:#ec008c;
+}
+
+body{
+    margin :0;
+    padding :0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#2c2929;
+    background-color: rgb(255, 249, 249);
+    line-height: 17px;
+}
+
+p{
+    text-align: justify;
+}
+/* para estilizzar o id coloca=se antes do nome o #*/
+#logo{
+    color:rgb(236, 238, 241);
+    font-size: 24px;
+    padding-top: 10px;
+    float: left;
+}
+header{
+    background-color: black;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    float: right;
+    padding: 23px 7px 0 0;
+
+}
+/*tirar as bolinhas*/
+nav ul{
+    list-style-type: none;
+}
+/* cada link fique a esquerda do outro*/
+nav ul li  {
+float: left;
+padding-left: 50px;
+}
+/*estilizar cada link*/
+nav ul li a{
+    font-size:18px;
+    line-height: 24px;
+    color:aliceblue;
+    font-weight: bold;
+}
+nav ul li a:hover{
+text-decoration: none;
+color: cornflowerblue;
+}
+a{
+    text-decoration: none;
+}
+img{
+    float: right;
+    padding: 3px 0 0 25px;
+};
+/* estilizar uma classe não esquecer de colocar o ponto*/
+.principal{
+    width: 960px;
+    margin: 0;
+}
+.caixa{
+    float: left;
+    width: 800px;
+    padding-right: 10;
+    padding-right: 10;
+    
+}
+footer{
+    clear: both;
+    background-color: aliceblue;
+    font-size: 10px;
+    color: darkgrey;
+    height: 46px;
+    border-top: 1px solid #acc;
+    margin: 10px;
+}
